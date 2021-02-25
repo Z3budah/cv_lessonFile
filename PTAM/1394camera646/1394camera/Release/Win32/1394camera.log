@@ -1,0 +1,62 @@
+﻿生成启动时间为 2020/6/22 19:38:44。
+     1>项目“D:\ComputerVision\PTAM\1394camera646\1394camera\1394camera.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WIN32_WINNT=0x500 /D WINVER=0x500 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MY1394CAMERA_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release/Win32\\" /Fd"Release/Win32\vc120.pdb" /FR"Release/Win32\\" /Gd /TP /analyze- /errorReport:prompt 1394CamAcq.cpp 1394CamCap.cpp 1394Camera.cpp 1394CameraControl.cpp 1394CameraControlSize.cpp 1394CameraControlStrobe.cpp 1394CameraControlTrigger.cpp 1394CamFMR.cpp 1394CamMem.cpp 1394CamPIO.cpp 1394CamReg.cpp 1394CamRGB.cpp 1394CamSIO.cpp ControlDialog.cpp ControlPane.cpp ControlSizeDialog.cpp ControlWrappers.cpp
+         1394CamAcq.cpp
+         1394CamCap.cpp
+         1394Camera.cpp
+         1394CameraControl.cpp
+         1394CameraControlSize.cpp
+         1394CameraControlStrobe.cpp
+         1394CameraControlTrigger.cpp
+         1394CamFMR.cpp
+         1394CamMem.cpp
+         1394CamPIO.cpp
+         1394CamReg.cpp
+         1394CamRGB.cpp
+         1394CamSIO.cpp
+         ControlDialog.cpp
+         ControlPane.cpp
+         ControlSizeDialog.cpp
+         ControlWrappers.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WIN32_WINNT=0x500 /D WINVER=0x500 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MY1394CAMERA_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release/Win32\\" /Fd"Release/Win32\vc120.pdb" /FR"Release/Win32\\" /Gd /TC /analyze- /errorReport:prompt 1394main.c debug.c isochapi.c tables.c
+         1394main.c
+         debug.c
+         isochapi.c
+         tables.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo"Release/Win32\1394camera.res" 1394camera.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ComputerVision\PTAM\1394camera646\Release/Win32\1394camera.dll" /INCREMENTAL:NO /NOLOGO shlwapi.lib strsafe.lib comctl32.lib setupapi.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ComputerVision\PTAM\1394camera646\Release/Win32\1394camera.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\ComputerVision\PTAM\1394camera646\Release/Win32\1394camera.lib" /MACHINE:X86 /SAFESEH /DLL Release/Win32\1394camera.res
+         Release/Win32\1394CamAcq.obj
+         Release/Win32\1394CamCap.obj
+         Release/Win32\1394Camera.obj
+         Release/Win32\1394CameraControl.obj
+         Release/Win32\1394CameraControlSize.obj
+         Release/Win32\1394CameraControlStrobe.obj
+         Release/Win32\1394CameraControlTrigger.obj
+         Release/Win32\1394CamFMR.obj
+         Release/Win32\1394CamMem.obj
+         Release/Win32\1394CamPIO.obj
+         Release/Win32\1394CamReg.obj
+         Release/Win32\1394CamRGB.obj
+         Release/Win32\1394CamSIO.obj
+         Release/Win32\1394main.obj
+         Release/Win32\ControlDialog.obj
+         Release/Win32\ControlPane.obj
+         Release/Win32\ControlSizeDialog.obj
+         Release/Win32\ControlWrappers.obj
+         Release/Win32\debug.obj
+         Release/Win32\isochapi.obj
+         Release/Win32\tables.obj
+            正在创建库 D:\ComputerVision\PTAM\1394camera646\Release/Win32\1394camera.lib 和对象 D:\ComputerVision\PTAM\1394camera646\Release/Win32\1394camera.exp
+         1394camera.vcxproj -> D:\ComputerVision\PTAM\1394camera646\Release/Win32\1394camera.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"Release/Win32\1394camera.bsc" Release/Win32\1394CamAcq.sbr Release/Win32\1394CamCap.sbr Release/Win32\1394Camera.sbr Release/Win32\1394CameraControl.sbr Release/Win32\1394CameraControlSize.sbr Release/Win32\1394CameraControlStrobe.sbr Release/Win32\1394CameraControlTrigger.sbr Release/Win32\1394CamFMR.sbr Release/Win32\1394CamMem.sbr Release/Win32\1394CamPIO.sbr Release/Win32\1394CamReg.sbr Release/Win32\1394CamRGB.sbr Release/Win32\1394CamSIO.sbr Release/Win32\1394main.sbr Release/Win32\ControlDialog.sbr Release/Win32\ControlPane.sbr Release/Win32\ControlSizeDialog.sbr Release/Win32\ControlWrappers.sbr Release/Win32\debug.sbr Release/Win32\isochapi.sbr Release/Win32\tables.sbr
+     1>已完成生成项目“D:\ComputerVision\PTAM\1394camera646\1394camera\1394camera.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.74

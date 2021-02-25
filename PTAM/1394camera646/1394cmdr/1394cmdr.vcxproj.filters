@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{452f889a-199f-49e6-bee3-eac2901e0930}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6ed215ab-ecbc-48bd-b3db-389ea3046509}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a4451996-4302-48cd-b996-63ba745be554}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1394api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1394cmdr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asyncapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ioctl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isochapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pnp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="power.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="1394cmdr.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1394cmdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\1394camera\1394common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

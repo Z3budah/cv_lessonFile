@@ -1,0 +1,64 @@
+﻿生成启动时间为 2020/6/22 19:37:40。
+     1>项目“D:\ComputerVision\PTAM\1394camera646\1394camera\1394camera.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WIN32_WINNT=0x500 /D WINVER=0x500 /D _DEBUG /D _WINDOWS /D _USRDLL /D MY1394CAMERA_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug/Win32\\" /Fd"Debug/Win32\vc120.pdb" /FR"Debug/Win32\\" /Gd /TP /analyze- /errorReport:prompt 1394CamAcq.cpp 1394CamCap.cpp 1394Camera.cpp 1394CameraControl.cpp 1394CameraControlSize.cpp 1394CameraControlStrobe.cpp 1394CameraControlTrigger.cpp 1394CamFMR.cpp 1394CamMem.cpp 1394CamPIO.cpp 1394CamReg.cpp 1394CamRGB.cpp 1394CamSIO.cpp ControlDialog.cpp ControlPane.cpp ControlSizeDialog.cpp ControlWrappers.cpp
+         ControlWrappers.cpp
+         ControlSizeDialog.cpp
+         ControlPane.cpp
+         ControlDialog.cpp
+         1394CamSIO.cpp
+         1394CamRGB.cpp
+         1394CamReg.cpp
+         1394CamPIO.cpp
+         1394CamMem.cpp
+         1394CamFMR.cpp
+         1394CameraControlTrigger.cpp
+         1394CameraControlStrobe.cpp
+         1394CameraControlSize.cpp
+         1394CameraControl.cpp
+         1394Camera.cpp
+         1394CamCap.cpp
+         1394CamAcq.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WIN32_WINNT=0x500 /D WINVER=0x500 /D _DEBUG /D _WINDOWS /D _USRDLL /D MY1394CAMERA_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug/Win32\\" /Fd"Debug/Win32\vc120.pdb" /FR"Debug/Win32\\" /Gd /TC /analyze- /errorReport:prompt 1394main.c debug.c isochapi.c tables.c
+         tables.c
+         isochapi.c
+         debug.c
+         1394main.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo"Debug/Win32\1394camera.res" 1394camera.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camera.dll) does not match the Linker's OutputFile property value (D:\ComputerVision\PTAM\1394camera646\Debug\Win32\1394camerad.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(1394camera) does not match the Linker's OutputFile property value (1394camerad). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camerad.dll" /INCREMENTAL:NO /NOLOGO shlwapi.lib strsafe.lib comctl32.lib setupapi.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camera.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camera.lib" /MACHINE:X86 /SAFESEH /DLL Debug/Win32\1394camera.res
+         Debug/Win32\1394CamAcq.obj
+         Debug/Win32\1394CamCap.obj
+         Debug/Win32\1394Camera.obj
+         Debug/Win32\1394CameraControl.obj
+         Debug/Win32\1394CameraControlSize.obj
+         Debug/Win32\1394CameraControlStrobe.obj
+         Debug/Win32\1394CameraControlTrigger.obj
+         Debug/Win32\1394CamFMR.obj
+         Debug/Win32\1394CamMem.obj
+         Debug/Win32\1394CamPIO.obj
+         Debug/Win32\1394CamReg.obj
+         Debug/Win32\1394CamRGB.obj
+         Debug/Win32\1394CamSIO.obj
+         Debug/Win32\1394main.obj
+         Debug/Win32\ControlDialog.obj
+         Debug/Win32\ControlPane.obj
+         Debug/Win32\ControlSizeDialog.obj
+         Debug/Win32\ControlWrappers.obj
+         Debug/Win32\debug.obj
+         Debug/Win32\isochapi.obj
+         Debug/Win32\tables.obj
+            正在创建库 D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camera.lib 和对象 D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camera.exp
+         1394camera.vcxproj -> D:\ComputerVision\PTAM\1394camera646\Debug/Win32\1394camera.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"Debug/Win32\1394camera.bsc" Debug/Win32\1394CamAcq.sbr Debug/Win32\1394CamCap.sbr Debug/Win32\1394Camera.sbr Debug/Win32\1394CameraControl.sbr Debug/Win32\1394CameraControlSize.sbr Debug/Win32\1394CameraControlStrobe.sbr Debug/Win32\1394CameraControlTrigger.sbr Debug/Win32\1394CamFMR.sbr Debug/Win32\1394CamMem.sbr Debug/Win32\1394CamPIO.sbr Debug/Win32\1394CamReg.sbr Debug/Win32\1394CamRGB.sbr Debug/Win32\1394CamSIO.sbr Debug/Win32\1394main.sbr Debug/Win32\ControlDialog.sbr Debug/Win32\ControlPane.sbr Debug/Win32\ControlSizeDialog.sbr Debug/Win32\ControlWrappers.sbr Debug/Win32\debug.sbr Debug/Win32\isochapi.sbr Debug/Win32\tables.sbr
+     1>已完成生成项目“D:\ComputerVision\PTAM\1394camera646\1394camera\1394camera.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.64

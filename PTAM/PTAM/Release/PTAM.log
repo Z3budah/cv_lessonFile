@@ -1,0 +1,92 @@
+﻿生成启动时间为 2020/6/23 23:14:06。
+     1>项目“D:\ComputerVision\PTAM\PTAM\PTAM.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (CameraCalibrator.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ComputerVision\opencv241\new_build\install\include\opencv2 /ID:\ComputerVision\opencv241\new_build\install\include /I../include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ARDriver.cc System.cc anmobj.cpp
+         ARDriver.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(54): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/se3.h(156): 参见对正在编译的类 模板 实例化“TooN::SO3<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+                 d:\computervision\ptam\ptam\EyeGame.h(35): 参见对正在编译的类 模板 实例化“TooN::SE3<double>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(55): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+     1>ARDriver.cc(261): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+         System.cc
+     1>d:\computervision\ptam\ptam\Map.h(25): warning C4099: “Map”: 类型名称以前使用“class”现在使用的是“struct”
+                 d:\computervision\ptam\ptam\System.h(21) : 参见“Map”的声明
+     1>d:\computervision\ptam\ptam\KeyFrame.h(29): warning C4099: “MapPoint”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\computervision\ptam\ptam\Map.h(21) : 参见“MapPoint”的声明
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(54): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/se3.h(156): 参见对正在编译的类 模板 实例化“TooN::SO3<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+                 d:\computervision\ptam\ptam\KeyFrame.h(81): 参见对正在编译的类 模板 实例化“TooN::SE3<double>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(55): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so2.h(51): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/se2.h(136): 参见对正在编译的类 模板 实例化“TooN::SO2<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+                 d:\computervision\ptam\ptam\Relocaliser.h(33): 参见对正在编译的类 模板 实例化“TooN::SE2<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so2.h(52): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+     1>d:\computervision\ptam\ptam\MapViewer.h(21): warning C4099: “Map”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\computervision\ptam\ptam\Map.h(25) : 参见“Map”的声明
+     1>System.cc(33): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         anmobj.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(54): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/se3.h(156): 参见对正在编译的类 模板 实例化“TooN::SO3<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+                 d:\computervision\ptam\ptam\EyeGame.h(35): 参见对正在编译的类 模板 实例化“TooN::SE3<double>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(55): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+     1>anmobj.cpp(39): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>anmobj.cpp(44): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>anmobj.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\PTAM.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib /LIBPATH:D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib libcvd.lib gvars3.lib glew32.lib opengl32.lib blas_win32_MT.lib lapack_win32_MT.lib pthreadVCE2.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\PTAM.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\PTAM.lib" /MACHINE:X86 /SAFESEH Release\anmobj.obj
+         Release\ARDriver.obj
+         Release\ATANCamera.obj
+         Release\Bundle.obj
+         Release\EyeGame.obj
+         Release\GLWindow2.obj
+         Release\GLWindowMenu.obj
+         Release\HomographyInit.obj
+         Release\KeyFrame.obj
+         Release\main.obj
+         Release\Map.obj
+         Release\MapMaker.obj
+         Release\MapPoint.obj
+         Release\MapViewer.obj
+         Release\md2.obj
+         Release\MiniPatch.obj
+         Release\PatchFinder.obj
+         Release\Relocaliser.obj
+         Release\ShiTomasi.obj
+         Release\SmallBlurryImage.obj
+         Release\System.obj
+         Release\Tracker.obj
+         Release\VideoSource_Win32_CMU1394.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+         libcvd.lib(win32.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+         正在生成代码
+         已完成代码的生成
+         PTAM.vcxproj -> D:\ComputerVision\PTAM\PTAM\Release\PTAM.exe
+     1>已完成生成项目“D:\ComputerVision\PTAM\PTAM\PTAM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.55

@@ -1,0 +1,63 @@
+﻿生成启动时间为 2020/6/23 21:08:48。
+     1>项目“D:\ComputerVision\PTAM\PTAM\CameraCalibrator.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (PTAM.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ComputerVision\opencv241\new_build\install\include\opencv2 /ID:\ComputerVision\opencv241\new_build\install\include /I..\include /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ATANCamera.cc CalibCornerPatch.cc CalibImage.cc CameraCalibrator.cc GLWindow2.cc GLWindowMenu.cc VideoSource_Win32_CMU1394.cc
+         ATANCamera.cc
+         CalibCornerPatch.cc
+     1>CalibCornerPatch.cc(192): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>CalibCornerPatch.cc(193): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(186): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(172): 编译类 模板 成员函数“float CVD::image_interpolate<CVD::Interpolate::Bilinear,CVD::byte>::operator [](const TooN::Vector<2,TooN::DefaultPrecision,TooN::Internal::VBase> &)”时
+                 CalibCornerPatch.cc(153): 参见对正在编译的函数 模板 实例化“float CVD::image_interpolate<CVD::Interpolate::Bilinear,CVD::byte>::operator [](const TooN::Vector<2,TooN::DefaultPrecision,TooN::Internal::VBase> &)”的引用
+                 CalibCornerPatch.cc(141): 参见对正在编译的类 模板 实例化“CVD::image_interpolate<CVD::Interpolate::Bilinear,CVD::byte>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(189): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(192): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(195): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CalibImage.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(54): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/se3.h(156): 参见对正在编译的类 模板 实例化“TooN::SO3<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+                 d:\computervision\ptam\ptam\CalibImage.h(39): 参见对正在编译的类 模板 实例化“TooN::SE3<double>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(55): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(186): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(172): 编译类 模板 成员函数“float CVD::image_interpolate<CVD::Interpolate::Bilinear,CVD::byte>::operator [](const TooN::Vector<2,TooN::DefaultPrecision,TooN::Internal::VBase> &)”时
+                 CalibImage.cc(91): 参见对正在编译的函数 模板 实例化“float CVD::image_interpolate<CVD::Interpolate::Bilinear,CVD::byte>::operator [](const TooN::Vector<2,TooN::DefaultPrecision,TooN::Internal::VBase> &)”的引用
+                 CalibImage.cc(77): 参见对正在编译的类 模板 实例化“CVD::image_interpolate<CVD::Interpolate::Bilinear,CVD::byte>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(189): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(192): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cvd/image_interpolate.h(195): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         CameraCalibrator.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(54): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/se3.h(156): 参见对正在编译的类 模板 实例化“TooN::SO3<Precision>”的引用
+                 with
+                 [
+                     Precision=double
+                 ]
+                 d:\computervision\ptam\ptam\CalibImage.h(39): 参见对正在编译的类 模板 实例化“TooN::SE3<double>”的引用
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\TooN/so3.h(55): warning C4396: “TooN::operator >>”: 友元声明引用函数模板的专用化时无法使用内联说明符
+         GLWindow2.cc
+     1>GLWindow2.cc(133): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>GLWindow2.cc(145): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>GLWindow2.cc(177): warning C4305: “参数”: 从“double”到“GLfloat”截断
+         GLWindowMenu.cc
+         VideoSource_Win32_CMU1394.cc
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ComputerVision\PTAM\PTAM\Release\CameraCalibrator.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib /LIBPATH:..\lib libcvd.lib gvars3.lib glew32.lib opengl32.lib blas_win32_MT.lib lapack_win32_MT.lib pthreadVCE2.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ComputerVision\PTAM\PTAM\Release\CameraCalibrator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ComputerVision\PTAM\PTAM\Release\CameraCalibrator.lib" /MACHINE:X86 /SAFESEH Release\ATANCamera.obj
+         Release\CalibCornerPatch.obj
+         Release\CalibImage.obj
+         Release\CameraCalibrator.obj
+         Release\GLWindow2.obj
+         Release\GLWindowMenu.obj
+         Release\VideoSource_Win32_CMU1394.obj
+         正在生成代码
+         已完成代码的生成
+         CameraCalibrator.vcxproj -> D:\ComputerVision\PTAM\PTAM\Release\CameraCalibrator.exe
+     1>已完成生成项目“D:\ComputerVision\PTAM\PTAM\CameraCalibrator.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.18
