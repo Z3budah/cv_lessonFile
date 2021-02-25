@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\CMakeFiles\ade259360d2c9957ea130e277bb36778\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE155CF8-4473-3902-B3DE-7C730FEAFF37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARDrawingContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CameraCalibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\Pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARDrawingContext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CameraCalibration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARPipeline.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\Pattern.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\DebugHelpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{348C5629-F68C-3635-86F5-179186E58C32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CB230464-37F0-3701-BFBD-E065E83B0F16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

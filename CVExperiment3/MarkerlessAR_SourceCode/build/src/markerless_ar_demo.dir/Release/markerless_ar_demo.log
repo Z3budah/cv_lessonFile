@@ -1,0 +1,35 @@
+﻿生成启动时间为 2020/5/6 6:43:33。
+     1>项目“D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\markerless_ar_demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/src/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ComputerVision\opencv241\new_build\install\include /ID:\ComputerVision\opencv241\new_build\install\include\opencv /I"D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"markerless_ar_demo.dir\Release\\" /Fd"markerless_ar_demo.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARDrawingContext.cpp" "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CameraCalibration.cpp" "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.cpp" "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\main.cpp" "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARPipeline.cpp" "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\Pattern.cpp" "D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.cpp"
+         ARDrawingContext.cpp
+     1>D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARDrawingContext.cpp(100): warning C4244: “初始化”: 从“int”转换到“const GLfloat”，可能丢失数据
+         CameraCalibration.cpp
+         GeometryTypes.cpp
+     1>D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.cpp(34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.cpp(63): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         main.cpp
+     1>d:\computervision\cv experiment 3\markerlessar_sourcecode\src\DebugHelpers.hpp(42): warning C4018: “>”: 有符号/无符号不匹配
+         ARPipeline.cpp
+         Pattern.cpp
+         PatternDetector.cpp
+     1>d:\computervision\cv experiment 3\markerlessar_sourcecode\src\DebugHelpers.hpp(42): warning C4018: “>”: 有符号/无符号不匹配
+     1>D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.cpp(81): warning C4244: “初始化”: 从“const int”转换到“const float”，可能丢失数据
+     1>D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.cpp(82): warning C4244: “初始化”: 从“const int”转换到“const float”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\Release\markerless_ar_demo.exe" /INCREMENTAL:NO /NOLOGO D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_videostab2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ts2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_superres2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_stitching2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_contrib2413.lib opengl32.lib glu32.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_nonfree2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ocl2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_gpu2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_photo2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_objdetect2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_legacy2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_video2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ml2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_calib3d2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_features2d2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_highgui2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_imgproc2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_flann2413.lib D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_core2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/Release/markerless_ar_demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/Release/markerless_ar_demo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 markerless_ar_demo.dir\Release\ARDrawingContext.obj
+         markerless_ar_demo.dir\Release\CameraCalibration.obj
+         markerless_ar_demo.dir\Release\GeometryTypes.obj
+         markerless_ar_demo.dir\Release\main.obj
+         markerless_ar_demo.dir\Release\ARPipeline.obj
+         markerless_ar_demo.dir\Release\Pattern.obj
+         markerless_ar_demo.dir\Release\PatternDetector.obj
+         markerless_ar_demo.vcxproj -> D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\Release\markerless_ar_demo.exe
+     1>已完成生成项目“D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\markerless_ar_demo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.25

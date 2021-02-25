@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41765BB8-7BE4-3EEC-B110-D1FB4AB88DF8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>markerless_ar_demo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">markerless_ar_demo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">markerless_ar_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">markerless_ar_demo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">markerless_ar_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">markerless_ar_demo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">markerless_ar_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">markerless_ar_demo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">markerless_ar_demo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_videostab2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ts2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_superres2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_stitching2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_contrib2413d.lib;opengl32.lib;glu32.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_nonfree2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ocl2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_gpu2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_photo2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_objdetect2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_legacy2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_video2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ml2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_calib3d2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_features2d2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_highgui2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_imgproc2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_flann2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_core2413d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/Debug/markerless_ar_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/Debug/markerless_ar_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_videostab2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ts2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_superres2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_stitching2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_contrib2413.lib;opengl32.lib;glu32.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_nonfree2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ocl2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_gpu2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_photo2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_objdetect2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_legacy2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_video2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ml2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_calib3d2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_features2d2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_highgui2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_imgproc2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_flann2413.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_core2413.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/Release/markerless_ar_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/Release/markerless_ar_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_videostab2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ts2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_superres2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_stitching2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_contrib2413d.lib;opengl32.lib;glu32.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_nonfree2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ocl2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_gpu2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_photo2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_objdetect2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_legacy2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_video2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ml2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_calib3d2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_features2d2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_highgui2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_imgproc2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_flann2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_core2413d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/MinSizeRel/markerless_ar_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/MinSizeRel/markerless_ar_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ComputerVision\opencv241\new_build\install\include;D:\ComputerVision\opencv241\new_build\install\include\opencv;D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_videostab2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ts2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_superres2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_stitching2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_contrib2413d.lib;opengl32.lib;glu32.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_nonfree2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ocl2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_gpu2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_photo2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_objdetect2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_legacy2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_video2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_ml2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_calib3d2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_features2d2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_highgui2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_imgproc2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_flann2413d.lib;D:\ComputerVision\opencv241\new_build\install\x86\vc12\lib\opencv_core2413d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/RelWithDebInfo/markerless_ar_demo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/RelWithDebInfo/markerless_ar_demo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake-3.17.0-win64-x64\bin\cmake.exe "-SD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode" "-BD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build" --check-stamp-file "D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake-3.17.0-win64-x64\bin\cmake.exe "-SD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode" "-BD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build" --check-stamp-file "D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\cmake-3.17.0-win64-x64\bin\cmake.exe "-SD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode" "-BD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build" --check-stamp-file "D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\cmake-3.17.0-win64-x64\bin\cmake.exe "-SD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode" "-BD:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build" --check-stamp-file "D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARDrawingContext.cpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARDrawingContext.hpp" />
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CameraCalibration.cpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\CameraCalibration.hpp" />
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.cpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\GeometryTypes.hpp" />
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\main.cpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARPipeline.hpp" />
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\ARPipeline.cpp" />
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\Pattern.cpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\Pattern.hpp" />
+    <ClCompile Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.cpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\PatternDetector.hpp" />
+    <ClInclude Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\src\DebugHelpers.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ComputerVision\CV Experiment 3\MarkerlessAR_SourceCode\build\ZERO_CHECK.vcxproj">
+      <Project>{37B58732-277C-3897-B25F-F8C7FEDEF68D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

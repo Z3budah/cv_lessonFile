@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/CMakeLists.txt
+D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/CMakeFiles/3.17.0/CMakeCCompiler.cmake
+D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/CMakeFiles/3.17.0/CMakeCXXCompiler.cmake
+D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/CMakeFiles/3.17.0/CMakeRCCompiler.cmake
+D:/ComputerVision/CV Experiment 3/MarkerlessAR_SourceCode/build/CMakeFiles/3.17.0/CMakeSystem.cmake
+D:/ComputerVision/opencv241/new_build/install/OpenCVConfig-version.cmake
+D:/ComputerVision/opencv241/new_build/install/OpenCVConfig.cmake
+D:/ComputerVision/opencv241/new_build/install/x86/vc12/lib/OpenCVConfig.cmake
+D:/ComputerVision/opencv241/new_build/install/x86/vc12/lib/OpenCVModules-debug.cmake
+D:/ComputerVision/opencv241/new_build/install/x86/vc12/lib/OpenCVModules-release.cmake
+D:/ComputerVision/opencv241/new_build/install/x86/vc12/lib/OpenCVModules.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeCInformation.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/FindOpenGL.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/FindPackageMessage.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Platform/Windows.cmake
+D:/cmake-3.17.0-win64-x64/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
